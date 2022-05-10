@@ -1,0 +1,848 @@
+#CASE 1 - No goal, 1 Entry
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a monthly budget goal? Please enter 'Y' for yes and 'N' for no: N
+
+Please enter the day you spent the item on in the format dd/mm/yy: 01/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 1
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Jennifer's Phone Bill
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 1
+
+Enter the price of the item you purchased: $45.55
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+1. Jennifer's Phone Bill [Bills] - Paid by Cash ($45.55) - 01/10/21
+-------------------------------------------------------------------
+TOTAL: $45.55
+
+Have a nice day! Bye bye :)
+
+
+#CASE 2 - No goal, Multiple Entries (testing with 5 entries)
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a budget goal? Please enter 'Y' for yes and 'N' for no: N
+
+Please enter the day you spent the item on in the format dd/mm/yy: 01/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 1
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Phone Bill
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 1
+
+Enter the price of the item you purchased: $45.55
+
+Do you want to enter another entry? Enter Y for yes and N for no: Y
+
+Please enter the day you spent the item on in the format dd/mm/yy: 05/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 12
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Staples (Pen, Line Paper)
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 2
+
+Enter the price of the item you purchased: $10.58
+
+Do you want to enter another entry? Enter Y for yes and N for no: Y
+
+Please enter the day you spent the item on in the format dd/mm/yy: 06/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 6
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Ice cream
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 1
+
+Enter the price of the item you purchased: $4.50
+
+Do you want to enter another entry? Enter Y for yes and N for no: Y
+
+Please enter the day you spent the item on in the format dd/mm/yy: 10/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 10
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Jane's Birthday Gift  
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 3
+
+Enter the price of the item you purchased: $25
+
+Do you want to enter another entry? Enter Y for yes and N for no: Y
+
+Please enter the day you spent the item on in the format dd/mm/yy: 12/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 9
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Movies
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 2
+
+Enter the price of the item you purchased: $12
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+1. Phone Bill [Bills] - Paid by Cash ($45.55) - 01/10/21
+2. Staples (Pen, Line Paper) [School Supplies] - Paid by Credit Card ($10.58) - 05/10/21
+3. Ice cream [Food] - Paid by Cash ($4.5) - 06/10/21
+4. Jane's Birthday Gift  [Gift] - Paid by Debit Card ($25.0) - 10/10/21
+5. Movies [Entertainment] - Paid by Credit Card ($12.0) - 12/10/21
+----------------------------------------------------------------------------------------
+TOTAL: $97.63
+
+Have a nice day! Bye bye :)
+
+
+#CASE 3 - Yes goal (staying within budget goal), One Entry
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount    
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to        
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a      
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases 
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a budget goal? Please enter 'Y' for yes and 'N' for no: Y
+
+Please enter the amount of your budget goal7: $100
+
+Please enter the day you spent the item on in the format dd/mm/yy: 10/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 5
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Weekly grocery store trip @ Metro
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 2
+
+Enter the price of the item you purchased: $55.64
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+1. Weekly grocery store trip @ Metro [Grocery] - Paid by Credit Card ($55.64) - 10/10/21
+----------------------------------------------------------------------------------------
+TOTAL: $55.64
+
+You still have $44.36 reamining before you break your budget goal.
+
+Have a nice day! Bye bye :)
+
+
+#CASE 4 - Yes goal (breaking budget goal), Multiple Entries (testing with 3 entries)
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a budget goal? Please enter 'Y' for yes and 'N' for no: Y
+
+Please enter the amount of your budget goal: $100
+
+Please enter the day you spent the item on in the format dd/mm/yy: 12/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 3
+
+Enter the name of the item you purchased or any notes you would like to include about the item: TTC
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 5
+
+Enter the price of the item you purchased: $4.50
+
+Do you want to enter another entry? Enter Y for yes and N for no: Y
+
+Please enter the day you spent the item on in the format dd/mm/yy: 12/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 6
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Pad Thai
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 2
+
+Enter the price of the item you purchased: $11.58
+
+Do you want to enter another entry? Enter Y for yes and N for no: Y
+
+Please enter the day you spent the item on in the format dd/mm/yy: 12/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 7
+
+Enter the name of the item you purchased or any notes you would like to include about the item: H&M (T-shirts + pants)
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other 
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 2
+
+Enter the price of the item you purchased: $88.52
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+1. TTC [Bus] - Paid by Other ($4.5) - 12/10/21
+2. Pad Thai [Food] - Paid by Credit Card ($11.58) - 12/10/21
+3. H&M (T-shirts + pants) [Clothes] - Paid by Credit Card ($88.52) - 12/10/21
+-----------------------------------------------------------------------------
+TOTAL: $104.6
+
+You have broken your budget goal sadly :(
+You have gone $4.6 over your budget goal.
+Have a nice day! Bye bye :)
+
+
+#CASE 5 - Entering an invalid date (date that does not exist)
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a budget goal? Please enter 'Y' for yes and 'N' for no: N
+
+Please enter the day you spent the item on in the format dd/mm/yy: 25/50/21
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: 10/25/21
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: 14/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 4
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Trip to friend's house
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 2
+
+Enter the price of the item you purchased: $36.48
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+
+1. Trip to friend's house [Uber] - Paid by Credit Card ($36.48) - 14/10/21
+--------------------------------------------------------------------------
+TOTAL: $36.48
+
+Have a nice day! Bye bye :)
+
+#CASE 6 - Entering a date that is past current date (current date is 14/10/21)
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a budget goal? Please enter 'Y' for yes and 'N' for no: N
+
+Please enter the day you spent the item on in the format dd/mm/yy: 11/12/21
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: 14/10/22
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: 15/10/21
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: 14/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 5
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Ice Cream
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 3
+
+Enter the price of the item you purchased: $4.76
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+1. Ice Cream [Grocery] - Paid by Debit Card ($4.76) - 14/10/21
+--------------------------------------------------------------
+TOTAL: $4.76
+
+Have a nice day! Bye bye :)
+
+
+#CASE 7 - Entering date not in the right format 
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a budget goal? Please enter 'Y' for yes and 'N' for no: N
+
+Please enter the day you spent the item on in the format dd/mm/yy: Oct 14, 2021
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: October 14, 2021
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: Thursday October 14, 2021
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: 14-10-21
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: 14 10 21
+
+It seems you have entered an invalid date. Remember that you can't put a date ahead of the current date and it must be in the format of dd/mm/yy. Please try again.
+Please enter the day you spent the item on in the format dd/mm/yy: 14/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 8
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Toothbrush 
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 4
+
+Enter the price of the item you purchased: $2.99
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+1. Toothbrush  [Hygiene] - Paid by Giftcard ($2.99) - 14/10/21
+--------------------------------------------------------------
+TOTAL: $2.99
+
+Have a nice day! Bye bye :)
+
+
+#CASE 8 - Entering a category number that is not on the list and a payment type number not on the list
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a budget goal? Please enter 'Y' for yes and 'N' for no: N
+
+Please enter the day you spent the item on in the format dd/mm/yy: 10/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 16
+
+It seems you have entered an invalid input. Please try again.
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 20
+
+It seems you have entered an invalid input. Please try again.
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 11
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Laptop
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 6
+
+It seems you have entered an invalid input. Please try again.
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 10
+
+It seems you have entered an invalid input. Please try again.
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 2
+
+Enter the price of the item you purchased: $2100.52
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+1. Laptop [Technology] - Paid by Credit Card ($2100.52) - 10/10/21
+------------------------------------------------------------------
+TOTAL: $2100.52
+
+Have a nice day! Bye bye :)
+
+
+#CASE 9 - Entering something random when asking if we have a budget goal and when it asks if we want to enter another entry
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a budget goal? Please enter 'Y' for yes and 'N' for no: idk
+
+It seems you have put an invalid input. Please try again. Enter 'Y' for yes and 'N' for no: yessir
+
+It seems you have put an invalid input. Please try again. Enter 'Y' for yes and 'N' for no: pineapple
+
+It seems you have put an invalid input. Please try again. Enter 'Y' for yes and 'N' for no: N
+
+Please enter the day you spent the item on in the format dd/mm/yy: 10/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 6
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Bubble Tea
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 1
+
+Enter the price of the item you purchased: $5.44
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+1. Bubble Tea [Food] - Paid by Cash ($5.44) - 10/10/21
+------------------------------------------------------------
+TOTAL: $5.44
+
+Have a nice day! Bye bye :)
+
+
+#CASE 10 - Coming close to breaking budget goal
+Welcome!! This program is meant to help keep you keep track of your purchases and the how much you are are spending.
+You can use this program at the end of the month to see how you did with your budget goal and what the total amount
+of money you have spent on all your purchases are or even at the end of a week or day.
+With this program you can keep yourself a little more organized with your financial side, where you are able to
+see all your purchases in one list instead of flipping through multiple receipts and statements and pulling out a
+calculator to do calculations.
+You will be prompted to ask answer multiple questions regarding your purchases which will then allow all the purchases
+you entered to be displayed as a list in the end, as well as the total you spent and how you did regarding keep up with
+your budget goal if you had one.
+
+Please enter your name: Jennifer
+
+Nice to meet you Jennifer!
+
+Do you have a budget goal? Please enter 'Y' for yes and 'N' for no: Y
+
+Please enter the amount of your budget goal: $15
+
+Please enter the day you spent the item on in the format dd/mm/yy: 11/10/21
+
+1. Bills
+2. Rent
+3. Bus
+4. Uber
+5. Grocery
+6. Food
+7. Clothes
+8. Hygiene
+9. Entertainment
+10. Gift
+11. Technology
+12. School Supplies
+13. Tuition
+14. Travel
+15. Other
+
+Enter the number corresponding to the category of item you purchased (e.g enter 1 if the item was bills related): 10
+
+Enter the name of the item you purchased or any notes you would like to include about the item: Pitching in for Joe's Gift
+
+1. Cash
+2. Credit Card
+3. Debit Card
+4. Giftcard
+5. Other
+
+Enter the number corresponding to the payment you used to purchase the item (e.g enter 1 if you used Cash): 3
+
+Enter the price of the item you purchased: $12.62
+
+Do you want to enter another entry? Enter Y for yes and N for no: N
+
+1. Pitching in for Joe's Gift [Gift] - Paid by Debit Card ($12.62) - 11/10/21
+-----------------------------------------------------------------------------------
+TOTAL: $12.62
+
+WARNING!!!
+You are close to breaking your budget watch out.
+You are $2.38 away from breaking your budget goal!
+
+Have a nice day! Bye bye :)
